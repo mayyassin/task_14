@@ -159,3 +159,4 @@ def restaurant_delete(request, restaurant_id):
         return redirect('no-access')
     restaurant_obj.delete()
     return redirect('restaurant-list')
+
